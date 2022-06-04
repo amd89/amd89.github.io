@@ -79,3 +79,22 @@ header {
     padding-bottom: 10px;
     border-bottom: 1px solid;
 }
+
+.content {
+    display: flex;
+    margin-top: 40px;
+}
+.about{
+    flex: 2;
+}
+.headshot{
+    flex: 1;
+}
+
+img{
+    max-width: 100%;
+}
+
+.about p{
+    margin-top: 20px;
+}
