@@ -1,10 +1,23 @@
+body{
+    color:antiquewhite;
+    background-color: rgb(32, 32, 32);
+}
+
+.about p {
+    line-height: 1.8rem;
+    text-indent: 4rem;
+    margin-right: 20px;
+    text-align: justify;
+}
+
 .navbutton {
-    background-color: blue;
+    background-color: rgb(32, 32, 32);
     padding: 11px 25px;
     width: 100px;
     text-align: center;
     display: inline-block;
     position: relative;
+    border: 1px solid antiquewhite;
    
 }
 
@@ -15,7 +28,7 @@
 }
 
 a {
-    color: white;
+    color: antiquewhite;
     text-decoration: none;
 }
 
@@ -26,6 +39,7 @@ a {
     z-index: 1; /* higher the index goes on top */
     padding-top: 20px;
     margin-left: -26px;
+    
 }
 
 /* turns the dop down back on */
@@ -34,12 +48,12 @@ a {
 }
 
 .dropdown-box .navbutton:hover{
-    background-color: green;
+    background-color: darkslategray;
     transition-duration: 500ms;
 }
 
 .contact {
-    color: black;
+    /* color: black; */
     padding-bottom: 20px;
 }
 
@@ -86,6 +100,7 @@ header {
 }
 .about{
     flex: 2;
+    padding-top: 20px;
 }
 .headshot{
     flex: 1;
@@ -100,7 +115,7 @@ img{
 }
 
 hr { 
-    background-color: black; 
+    background-color: antiquewhite; 
     height: 1px; 
     border: 0; 
 }
