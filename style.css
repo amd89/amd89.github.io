@@ -1,6 +1,7 @@
 body{
     color:antiquewhite;
     background-color: rgb(32, 32, 32);
+    font-size: 1.1rem;
 }
 
 .about p {
@@ -58,13 +59,18 @@ a {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 
 }
 
 h3 {
     font-weight: bold;
+    padding-bottom: 5px;
+}
+
+h4 {
+    padding-top: 5px;
 }
 
 ul {
@@ -118,4 +124,8 @@ hr {
     background-color: antiquewhite; 
     height: 1px; 
     border: 0; 
+}
+
+li {
+    padding-top: 10px;
 }
